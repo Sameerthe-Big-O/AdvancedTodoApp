@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Shopping Item</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        #parent{
+            padding: 2rem;
+            background-color: rebeccapurple;
+        }
+        #child{
+            padding: 2rem;
+            background-color: rgb(37, 125, 225);
+        }
+        #fuck-child{
+            padding: 2rem;
+            background-color: rgb(48, 25, 219);
+        }
+        #parent-s{
+            padding:3rem;
+            background-color: saddlebrown;
+        }
+        #ss{
+            background-color: aqua;
+            padding: 3rem;
+        }
+        #p{
+            padding: 3rem;
+        }
+        #hero{
+            padding: 3rem;
+        }
+    </style>
+<body>
+    <div class="container">
+     <div class="img">
+      <img class="pc-white img" id="next" src="/images/bg-desktop-light.jpg" alt="">
+     </div>
+    <div class="row"> 
+    <div class="head">
+    <h1>TODO</h1>
+    <img src="/images/icon-sun.svg" id="sun" class="sun" alt="">
+    </div>    
+    <div class="inputs">
+    <input type="text" class="usertext" name="text" "  id="usertext" placeholder="Enter the item">
+    <i class="bi bi-plus-circle enter" id="enter"></i>
+    </div>
+    <ul>
+      
+    </ul>
+    <div class="banner">
+        <div class="task">
+            Task
+            <span id="counter">0</span> 
+        </div>
+        <div class="task">
+            Task Done
+            <span id="comp-Task">0</span>
+        </div>
+        <div class="task">
+            <span id="Clear-Task">Clear All</span>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- <div id="parent">
+   <div id="parent-s">
+     hello
+     <div id="ss">
+        aside
+    <div id="child">
+    color
+        <button id="fuck-child">now also click me</button>
+    </div>
+</div>
+   </div>
+</div>
+
+<div id="hero">
+    <p id="p">
+        weweeee
+    <button id="y">
+        sad
+        <div id="dd">
+            asdasd
+        </div>
+        <p id="yes">sameer</p>
+    </button>
+</p>
+</div> -->
+<!-- <script src="js.js"></script> -->
+<script src="script.js"></script>
+<!-- <script src="mine.js"></script> -->
+    <!-- <script src="/scriot.js">     </script>  -->
+    <!-- <script src="mine.js"></script> -->
+    <!-- <script src="/andriew.js"></script> -->
+    <!-- <script src="minejs.js"></script> -->
+    <!-- <script src="LastMine.js"></script> -->
+    <!-- <script src="/side.js"></script> -->
+    <!-- <script src="/js.js"></script> -->
+<!-- <script>
+ //* this makes clear that if button is parent our of div and we're fired the event pn nestde butto then the the elements that are' insdide button element aren't going to fight and if button isn't our parent then it'll propogate
+ //* whatever in that button under comes and button itself these will not going to fired the event
+ const yes=document.getElementById('hero');
+ const y=document.getElementById('y');
+ const d=document.getElementById('dd');
+ const p=document.getElementById('p');
+
+ p.addEventListener('click',function(e){
+    p.style.backgroundColor="pink";
+ })
+
+ d.addEventListener('click',function(e){
+    d.style.backgroundColor="pink";
+ })
+
+//  yes.addEventListener('click',function(e){
+//     yes.style.backgroundColor="yellow";
+//  })
+
+
+ 
+ yes.addEventListener('click',function(e){
+    yes.style.backgroundColor="red";
+ })
+
+
+  const id=document.querySelector('#parent');
+  const child=document.querySelector('#child');
+  const pars=document.querySelector('#parent-s');
+  const isd=document.querySelector('#ss');
+
+  id.addEventListener('click', function(e){
+    console.log(e.target);
+    console.log(e.currentTarget);
+    id.style.backgroundColor="red";
+  });
+
+  isd.addEventListener('click', function(e){
+    console.log(e.target);
+    console.log(e.currentTarget);
+    isd.style.backgroundColor="red";
+  });
+
+  pars.addEventListener('click', function(e){
+    console.log(e.target);
+    console.log(e.currentTarget);
+    pars.style.backgroundColor="green";
+  });
+  
+  child.addEventListener('click', function(e){
+    console.log(e.target);
+    console.log(e.currentTarget);
+    child.style.backgroundColor="blue";
+  });
+ 
+
+
+   
+</script> -->
+</body>
+</html>
